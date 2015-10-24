@@ -7,10 +7,7 @@ The "make -jx" is set to `getconf _NPROCESSORS_ONLN`. This will use the total
 number of available processor threads. To change this setting open the *.sh 
 file with a text editor and set to your choice. 
 
-Use N9ROM.sh if user has no ccache setup.  ./N9ROM.sh
+Use N6_BUILD.sh ---->   To build shamu nexus 6
 
-Use N9ROMCC.sh if user has ccache setup.   ./N9ROMCC.sh
+Use N9_BUILD.sh ---->   To build flounder nexus 9
 
-Use N6ROM.sh if user has no ccache setup.  ./N6ROM.sh
-
-Use N6ROMCC.sh if user has ccache setup.   ./N6ROMCC.sh 
