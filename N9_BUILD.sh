@@ -2,7 +2,7 @@
 
 cd ~/noobbuilds/kernel/htc/flounder
 make clean
-export ARCH=arm
+export ARCH=arm64
 export CROSS_COMPILE=~/noobbuilds/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-gcc-
 export USE_CCACHE=1
 make flounder_defconfig
