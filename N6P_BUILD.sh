@@ -10,7 +10,7 @@ make -j4
 cd ~/noobbuilds
 mkdir ~/noobbuilds/device/huawei/angler-kernel
 rm ~/noobbuilds/device/huawei/angler-kernel/Image.gz-dtb
-cp ~/noobbuilds/kernel/huawei/angler/arch/arm64/boot/Image.gz-dtb ~/noobbuilds/device/huawei/angler-kernel
+cp ~/noobbuilds/kernel/huawei/angler/arch/arm64/boot/Image.gz-dtb ~/noobbuilds/device/huawei/angler-kernel/
 source build/envsetup.sh
 make clobber
 lunch noobbuilds_n6p-userdebug
