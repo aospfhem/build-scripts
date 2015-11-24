@@ -8,6 +8,8 @@ number of available processor threads. To change this setting open the build scr
 file with a text editor and set to your choice. 
 
 Use N6_BUILD.sh ---->   To build sshamu nexus 6
+
 Use N6P_BUILD.sh ---->   To build angler nexus 6P
+
 Use N9_BUILD.sh ---->   To build flounder nexus 9
 
